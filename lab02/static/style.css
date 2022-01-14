@@ -4,38 +4,39 @@ body * {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
-h2 {
-    font-family: 'Licorice', cursive;
+
+header {
+    padding: 3vh;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-/*
-Add some style blocks below this line to style the cards.
-Feel free to borrow from Exercise 1.
-*/
+
+nav ul {
+    width: 250px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
 main {
+    margin: 3vh;
     display: flex;
 }
-section {
+.template {
     margin: 10px;
-    width: 350px;
-    border: solid 1px #CCC;
+    width: 500px;
+    border: solid 1px gold;
     padding-bottom: 20px;
     
 }
-
-section h2, section p, section button{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 section img{
     width: 100%;
-    height: fit-content;
 }
-section iframe{
-    width: 100%;
-}
-/* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
     main{
         flex-wrap: wrap;
