@@ -30,7 +30,7 @@ main {
 .template {
     margin: 10px;
     width: 500px;
-    border: solid 1px gold;
+    border: solid 3px black;
     padding-bottom: 20px;
     
 }
