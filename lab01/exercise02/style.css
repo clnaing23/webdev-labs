@@ -47,7 +47,11 @@ section iframe{
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
+    main{
+        flex-wrap: wrap;
+    }
     section {
         width: 100%;
     }
+    
 }
